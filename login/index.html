@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        padding: 0;
+        margin: 0;
+       }
+       body{
+        background-image: url(012.jpg);
+       }
+       .out{
+        display: grid;
+        place-items: center;
+        margin-top: 150px;
+       }
+       .log{
+        width: 300px;
+        height: 300px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius:40px;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+        }
+        input{
+        width: 250px;
+        height: 40px;
+        font-size: larger;
+       }
+       button{
+        width: 125px;
+        height: 40px;
+        cursor: pointer;
+       }
+       .login{
+        background-color: black;
+        color: white;
+       }
+       h1{
+        color: white;
+        font-family: monospace;
+       }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="log">
+            <br>
+            
+            <center><h1 style="font-family: monospace;">Welcome</h1></center>
+            <br>
+            <form action="post">
+            <center><input type="text" name="userid" id="userid" placeholder="Username"></center>
+            <br>
+            <br>
+           <center> <input type="password" name="password" id="password" placeholder="Password"></center>
+           <br>
+           <center><button type="button" class="login">Login</button>
+           <button type="button" class="sign">Signup</button></center>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
